@@ -84,6 +84,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'decide.urls'
 
+BASEURL = 'https://decidepractica.herokuapp.com'
 APIS = {
     'authentication': BASEURL,
     'base': BASEURL,
