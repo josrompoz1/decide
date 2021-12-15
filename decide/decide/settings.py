@@ -70,8 +70,6 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -84,7 +82,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'decide.urls'
 
-BASEURL = 'https://decidepractica.herokuapp.com'
+BASEURL = 'https://decidepractica7.herokuapp.com/'
 APIS = {
     'authentication': BASEURL,
     'base': BASEURL,
