@@ -193,7 +193,7 @@ if os.path.exists("config.jsonnet"):
 INSTALLED_APPS = INSTALLED_APPS + MODULES
 
 NOSE_ARGS = [
-        '--whit-xunit'
+        '--with-xunit'
 ]
 
 import django_heroku
